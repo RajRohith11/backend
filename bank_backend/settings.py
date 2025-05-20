@@ -94,6 +94,14 @@ DATABASES = {
         'PASSWORD': os.getenv("DB_PASSWORD"),
         'HOST': os.getenv("DB_HOST"),
         'PORT': os.getenv("DB_PORT"),
+
+
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'bankdb',
+        # 'USER': 'root',
+        # 'PASSWORD': 'rohith3338x',
+        # 'HOST': 'localhost',
+        # 'PORT': '3306',
         }
 }
 
